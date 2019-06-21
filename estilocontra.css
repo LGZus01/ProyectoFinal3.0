@@ -1,0 +1,182 @@
+/* Aquí irá todo nuestro encabezado papá */
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+#main-header a {
+	color: white;
+}
+ 
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
+}
+/*
+ Aquí esta mi menú todo delicioso 7u7
+ */
+header nav {
+	float: right;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+header nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}			
+header nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	background: #191b1c;
+}
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 90%;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+ 
+#main-content header,
+#main-content .content {
+	padding: 40px;
+}
+
+/* Aquí irá todo nuestro cuerpecito 7u7 */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+
+	padding-top: 40px; /* Relleno superior igual a la altura de la cabecera*/
+}
+
+
+#formcontra{
+	margin-left: 50px;
+}
+#imagenreco{
+	width: 280px;
+	height: 280px;
+	float: left;
+	margin-left: 370px;
+	font-style: normal;
+	margin-bottom: 15px;
+	margin-top: -590px;
+}
+
+#imagenrecomen{
+	border:5px;
+	width: 800px;
+	height: 500px;
+}
+#imag1{
+	width: 350px;
+	height: 250px;
+	margin-left: 30px;
+	border: solid 5px black;
+}
+#imag2{
+	width: 350px;
+	height: 250px;
+	margin-left: 23px;
+	border: solid 5px black;
+}
+#imag3{
+	width: 350px;
+	height: 250px;
+	margin-right: 35px;
+	border: solid 5px black;
+}
+#puesto1vac{
+	background-color: white;
+	border: black 5px solid;
+  	border-radius: 20px;
+	margin-left: 30px;
+	width: 330px;
+	height: 370;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#puesto2vac{
+	background-color: white;
+	border: black 5px solid;
+  	border-radius: 20px;
+  	margin-left: 410px;
+  	margin-top: -400px;
+  	margin-bottom: 5px;
+  	width: 330px;
+	height: 385px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#puesto3vac{
+	background-color: white;
+	border: black 5px solid;
+  	border-radius: 20px;
+  	margin-left: 820px;
+  	margin-top: -400px;
+  	margin-bottom: 5px;
+  	width: 330px;
+	height:380px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+
+/* Ahora haremos el píe de página */
+
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+#main-footer p {
+	margin: 0;
+}	
+#main-footer a {
+	color: white;
+}
